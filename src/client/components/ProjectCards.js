@@ -8,13 +8,17 @@ import WebIcon from '../../../assets/icons/web.svg';
 import OpenIcon from '../../../assets/icons/open.svg';
 import CloseIcon from '../../../assets/icons/close.svg';
 import GithubIcon from '../../../assets/icons/github.svg';
+import TwitterIcon from '../../../assets/icons/twitter.svg';
+import NewsIcon from '../../../assets/icons/news2.svg';
 import data from '../../../src/client/lib/data.json';
 
 const { projectCards, settings } = data;
 
 const ICON_MAP = {
   'website': <WebIcon />,
-  'github': <GithubIcon />
+   'github': <GithubIcon />,
+   'twitter': <TwitterIcon />,
+    'news': <NewsIcon />
 }
 
 const ProjectPopover = ({ handleClose, data }) => {

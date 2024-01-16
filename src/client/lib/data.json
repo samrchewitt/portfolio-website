@@ -1,9 +1,9 @@
-{
+﻿{
   "settings": {
     "sideBarLocation": "right",
     "projectCards": {
-      "showAlternatingCards": ["WORK", "PROJECTS"],
-      "compactView": ["PROJECTS"]
+      "showAlternatingCards": [ "Projects", "Publications"],
+      "compactView": [ "Research"]
     }
   },
   "meta": {
@@ -11,44 +11,48 @@
     "description": "META DESC",
     "mobileIcon": "/mobile-icon.png",
     "favIcon": "/favicon.ico",
-    "language": "en-US",
+    "language": "en-UK",
     "canonical": "CANONICAL URL",
     "url": "URL",
     "twitterHandle": "TWITTER HANDLE"
   },
   "social": {
-    "linkedin": "LINKEDIN URL",
-    "github": "GITHUB URL",
-    "instagram": "INSTAGRAM URL",
-    "twitter": "TWITTER URL"
+    "linkedin": "https://www.linkedin.com/in/sam-hewitt-151313a4/",
+    "github": "https://github.com/samrchewitt",
+    "google scholar": "https://scholar.google.co.uk/citations?user=sYDX_5gAAAAJ&hl=en",
+    "twitter": "https://twitter.com/samrchewitt"
   },
   "document": {
-    "fileName": "MY-RESUME.pdf",
-    "path": "/docs/temp.pdf"
+    "fileName": "SamuelHewittCV.pdf",
+    "path": "/docs/cv_20210106_SamHewitt.pdf"
   },
   "header": {
-    "preHeading": "Hello, my name is",
-    "heading": "FIRST LAST",
-    "subHeading": "JOB TITLE",
-    "text": "SHORT INTRO",
-    "ctaText": "Get In Touch"
+    "preHeading": "Hi, my name is",
+    "heading": "Samuel Hewitt",
+    "subHeading": "I'm a research scientist, data analyst and consultant",
+    "text": "I'm currently finishing a PhD in Cognitive Neuroscience and Computational Psychiatry at University College London.",
+    "ctaText": "Contact me"
   },
   "sections": [
     {
       "type": "about",
-      "heading": "ABOUT ME"
+      "heading": "About me"
     },
     {
       "type": "projectCards",
-      "heading": "WORK"
+      "heading": "Research"
     },
     {
       "type": "projectCards",
-      "heading": "PROJECTS"
+      "heading": "Projects"
+    },
+    {
+      "type": "projectCards",
+      "heading": "Publications"
     },
     {
       "type": "gallery",
-      "heading": "MY GALLERY"
+      "heading": "Photos"
     },
     {
       "type": "contact",
@@ -57,17 +61,23 @@
   ],
   "about": {
     "content": [
-      "LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISICING ELIT.",
-      "LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISICING ELIT."
+      "I do research about brains and mental health",
+      "We use advanced methods to understand how people make choices. We deconstruct choices into the recipes people use to make them",
+      "For example, how do you decide whether to keep reading?",
+      "We do this in order to better understand, predict and ultimately treat mental health conditions like depression",
+      "My PhD is supervised by Prof Tobias Hauser (UCL/Tuebingen University) and Professor Oliver Robinson (UCL). I also receive mentorship from Prof Essi Viding (UCL) and Dr Patricia Lockwood (University of Oxford/University of Birmingham)",
+      "My work has primarily been funded by the Medical Research Council and Wellcome Trust.",
+      "I started my research career as a Clinical Research Assistant at the University of Cambridge",
+      "I have a Brain and Mind Sciences MSc (Distinction) from UCL & an Experimental Psychology BSc (1st Class) from the University of Bristol"
     ],
     "image": "/images/about/TEMP-ME.png"
   },
   "projectCards": {
-    "WORK": [
+    "Research": [
       {
-        "title": "WORK PROJECT 1",
-        "description": "LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISICING ELIT.",
-        "tools": ["TOOL 1", "TOOL 2"],
+        "title": "Dopamine and reinforcement learning about effort",
+        "description": "Here is where you describe the research",
+        "tools": [ "Matlab", "SPM12", "the Brain Explorer" ],
         "links": {
           "github": "GITHUB URL",
           "website": "WEBSITE URL"
@@ -91,14 +101,76 @@
         ]
       },
       {
-        "title": "WORK PROJECT 2",
-        "description": "LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISICING ELIT."
+        "title": "Measuring fluctuations in motivation over time",
+        "description": "Here is where you describe the research.",
+        "tools": [ "R", "Python", "Javascript", "HTML", "NoSQL", "PHASER3", "the Brain Explorer" ]
+
       }
     ],
-    "PROJECTS": [
+    "Projects": [
       {
-        "title": "PROJECT 1",
-        "description": "LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISICING ELIT."
+        "title": "A mobile game to measure motivational state",
+        "description": "Mobile game built from original work by Dr Agnes Norbury and Professor Quentin Huys.",
+        "tools": [ "R", "Python", "Javascript", "HTML", "Phaser3", "NoSQL" ],
+        "links": {
+          "github": "https://github.com/samrchewitt/reward-effort-2afc-firebase-BEX-FU",
+          "website": "https://www.agnesnorbury.com/"
+        },
+        "image": "/images/projectCards/game-gif.png",
+        "highlights": [
+          {
+            "heading": "POINT 1",
+            "details": [
+              "LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISICING ELIT.",
+              "LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISICING ELIT."
+            ],
+            "media": "/images/projectCards/TEMP-WORK-PROJECT-1-POINT-1.gif"
+          },
+          {
+            "heading": "POINT 2",
+            "details": [
+              "LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISICING ELIT."
+            ]
+          }
+        ]
+      }
+    ],
+    "Publications": [
+      {
+        "title": "Probing apathy in children and adolescents with the Apathy Motivation Index Child version",
+        "description": "A new measure of trait apathy in children",
+        "links": {
+          "website": "https://link.springer.com/article/10.3758/s13428-023-02184-4",
+          "twitter": "https://x.com/samrchewitt/status/1688513792987013120?s=20"
+        },
+        "image": "/images/projectCards/fig3_scatter.png",
+        "highlights": [
+          {
+            "heading": "Abstract",
+            "details": [
+              "Apathy is linked to mental health and altered neurocognitive functions such as learning and decision-making in healthy adults. Mental health problems typically begin to emerge during adolescence, yet little is known about how apathy develops due to an absence of quantitative measurements specific to young people. Here, we present and evaluate the Apathy Motivation Index–Child Version (AMI-CV) for children and adolescents. We show across two samples of young people (aged 8 to 17 years, total N = 191) tested in schools in the UK and on a smartphone app, that the AMI-CV is a short, psychometrically sound measure to assess levels of apathy and motivation in young people. Similar to adult versions, the AMI-CV captures three distinct apathy domains: Behavioural Activation, Social Motivation and Emotional Sensitivity. The AMI-CV showed excellent construct validity with an alternative measure of apathy and external validity replicating specific links with related mental health traits shown in adults. Our results provide a short measure of self-reported apathy in young people that enables research into apathy development. The AMI-CV can be used in conjunction with the adult version to investigate the impact of levels of apathy across the lifespan."
+            ],
+            "media": "/images/projectCards/beh_research_methods.png"
+          }
+        ]
+      },
+      {
+        "title": "Visual tests predict dementia risk in Parkinson's disease",
+        "description": "Contribution as part of MSc Brain and Mind Sciences",
+        "links": {
+          "website": "https://www.neurology.org/doi/10.1212/cpj.0000000000000719",
+          "news": "https://theconversation.com/parkinsons-disease-can-affect-the-eyes-heres-what-we-know-so-far-146432"
+        },
+        "image": "/images/projectCards/PD_retina.jpeg",
+        "highlights": [
+          {
+            "heading": "Abstract",
+            "details": [
+              "To assess the role of visual measures and retinal volume to predict the risk of Parkinson disease (PD) dementia.\n Methods: In this cohort study, we collected visual, cognitive, and motor data in people with PD. Participants underwent ophthalmic examination, retinal imaging using optical coherence tomography, and visual assessment including acuity and contrast sensitivity and high-level visuoperception measures of skew tolerance and biological motion. We assessed the risk of PD dementia using a recently described algorithm that combines age at onset, sex, depression, motor scores, and baseline cognition. Results: One hundred forty-six people were included in the study (112 with PD and 34 age-matched controls). The mean disease duration was 4.1 (±2·5) years. None of these participants had dementia. Higher risk of dementia was associated with poorer performance in visual measures (acuity: ρ = 0.29, p = 0.0024; contrast sensitivity: ρ = −0.37, p < 0.0001; skew tolerance: ρ = −0.25, p = 0.0073; and biological motion: ρ = −0.26, p = 0.0054). In addition, higher risk of PD dementia was associated with thinner retinal structure in layers containing dopaminergic cells, measured as ganglion cell layer (GCL) and inner plexiform layer (IPL) thinning (ρ = −0.29, p = 0.0021; ρ = −0.33, p = 0.00044). These relationships were not seen for the retinal nerve fiber layer that does not contain dopaminergic cells and were not seen in unaffected controls. Conclusion: Visual measures and retinal structure in dopaminergic layers were related to risk of PD dementia. Our findings suggest that visual measures and retinal GCL and IPL volumes may be useful to predict the risk of dementia in PD."
+            ],
+            "media": "/images/projectCards/PD_summary_vision.gif"
+          }
+        ]
       }
     ]
   },
@@ -109,8 +181,8 @@
     }
   ],
   "contact": {
-    "text": "LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISICING ELIT.",
-    "ctaText": "Send Email",
-    "email": "EMAIL@EMAIL.COM"
+    "text": "Tell me something",
+    "ctaText": "Say hello",
+    "email": "s.hewitt.17@ucl.ac.uk"
   }
 }
