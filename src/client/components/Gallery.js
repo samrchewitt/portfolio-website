@@ -74,6 +74,7 @@ const Gallery = () => {
   return (
     <>
       <div className='gallery__images'>
+        {textHtml && <p className='gallery__text' dangerouslySetInnerHTML={{__html:textHtml}} />}
         { gallery.slice(imagesPerGroup * groupIndex, (imagesPerGroup * (groupIndex + 1))).map(({ image, thumbnail }, i) => (
           <FilteredImage
             key={`gallery-image-${i}`}

@@ -1,13 +1,12 @@
 ﻿{
   "settings": {
-    "sideBarLocation": "right",
+    "sideBarLocation": "left",
     "projectCards": {
-      "showAlternatingCards": [ "Projects", "Publications"],
-      "compactView": [ "Research"]
+      "compactView": [ "Projects", "Publications"]
     }
   },
   "meta": {
-    "title": "META TITLE",
+    "title": "Samuel Hewitt",
     "description": "META DESC",
     "mobileIcon": "/mobile-icon.png",
     "favIcon": "/favicon.ico",
@@ -19,28 +18,26 @@
   "social": {
     "linkedin": "https://www.linkedin.com/in/sam-hewitt-151313a4/",
     "github": "https://github.com/samrchewitt",
-    "google scholar": "https://scholar.google.co.uk/citations?user=sYDX_5gAAAAJ&hl=en",
-    "twitter": "https://twitter.com/samrchewitt"
+    "scholar": "https://scholar.google.co.uk/citations?user=sYDX_5gAAAAJ&hl=en",
+    "twitter": "https://twitter.com/samrchewitt",
+    "osf": "https://osf.io/9rpzx/",
+    "ORCID": "https://orcid.org/0000-0002-9219-6324"
   },
   "document": {
     "fileName": "SamuelHewittCV.pdf",
     "path": "/docs/cv_20210106_SamHewitt.pdf"
   },
   "header": {
-    "preHeading": "Hi, my name is",
-    "heading": "Samuel Hewitt",
-    "subHeading": "I'm a research scientist, data analyst and consultant",
-    "text": "I'm currently finishing a PhD in Cognitive Neuroscience and Computational Psychiatry at University College London.",
-    "ctaText": "Contact me"
+    "preHeading": "Hey! My name is",
+    "heading": "Sam",
+    "subHeading": "I reseach brains and how they change over time",
+    "text": "I'm currently finishing a PhD in Computational Psychiatry & Neuroscience at University College London.",
+    "ctaText": "Get in touch"
   },
   "sections": [
     {
       "type": "about",
-      "heading": "About me"
-    },
-    {
-      "type": "projectCards",
-      "heading": "Research"
+      "heading": "About"
     },
     {
       "type": "projectCards",
@@ -51,97 +48,126 @@
       "heading": "Publications"
     },
     {
-      "type": "gallery",
-      "heading": "Photos"
+      "type": "Gallery",
+      "heading": "Talks"
     },
     {
       "type": "contact",
-      "heading": "CONTACT"
+      "heading": "Contact"
     }
   ],
   "about": {
     "content": [
-      "I do research about brains and mental health",
-      "We use advanced methods to understand how people make choices. We deconstruct choices into the recipes people use to make them",
-      "For example, how do you decide whether to keep reading?",
-      "We do this in order to better understand, predict and ultimately treat mental health conditions like depression",
-      "My PhD is supervised by Prof Tobias Hauser (UCL/Tuebingen University) and Professor Oliver Robinson (UCL). I also receive mentorship from Prof Essi Viding (UCL) and Dr Patricia Lockwood (University of Oxford/University of Birmingham)",
-      "My work has primarily been funded by the Medical Research Council and Wellcome Trust.",
-      "I started my research career as a Clinical Research Assistant at the University of Cambridge",
-      "I have a Brain and Mind Sciences MSc (Distinction) from UCL & an Experimental Psychology BSc (1st Class) from the University of Bristol"
+      "I am a cognitive neuroscientist based in London. We use advanced methods to deconstruct choices people make into the recipes that people use to make them. For example, how do you decide whether to keep reading this?",
+      "Choices can reveal how our brains work and are often linked to our subjective wellbeing. The utlimate goal of this work is to improve prediction and treatment for common mental health conditions like depression.",
+      "My PhD is supervised by Prof Tobias Hauser (UCL/Tuebingen University) and Professor Oliver Robinson (UCL). I also receive mentorship from Prof Essi Viding (UCL) and Dr Patricia Lockwood (University of Oxford/University of Birmingham), and funding from the Medical Research Council and Wellcome Trust.",
+      "I started my research career as a Clinical Research Assistant at the University of Cambridge working with Professor Roger Barker",
+      "I'm also a graduate of UCL's Brain & Mind Sciences MSc & the University of Bristol (Experimental Psychology)"
     ],
-    "image": "/images/about/TEMP-ME.png"
+    "image": "/images/about/SH.jpg"
   },
   "projectCards": {
-    "Research": [
+    "Projects": [
       {
         "title": "Dopamine and reinforcement learning about effort",
-        "description": "Here is where you describe the research",
-        "tools": [ "Matlab", "SPM12", "the Brain Explorer" ],
+        "description": "how do we learn how rewarding and effortful things are?",
+        "tools": ["fMRI", "reinforcement learning", "Matlab", "SPM12"],
         "links": {
-          "github": "GITHUB URL",
-          "website": "WEBSITE URL"
+          "github": "https://github.com/samrchewitt/EL_analysis",
+          "pdf": "public/docs/EL_beh_UCL_blue_CPC-Dublin_June23.pdf"
         },
-        "image": "/images/projectCards/TEMP-WORK-PROJECT-1-BANNER.png",
+        "image": "/images/projectCards/auto_draw_RL_effort_gym_cropped.png",
         "highlights": [
           {
-            "heading": "POINT 1",
+            "heading": "Learning is a key aspect of decision-making",
             "details": [
-              "LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISICING ELIT.",
-              "LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISICING ELIT."
+              "We know from previous research that people prefer to avoid effort, unless the reward is sufficient to justify it. People differ in how rewarding and effortful they perceive and experience things, but also in how they learn this over time.",
+              "We are investigate the role of dopamine in learning about reward and effort in a randomised double-blind placebo controlled study using L-dopa in 60 healthy young adults.",
+              "This means we give participants a drug that increases dopamine levels in the brain, and then measure how this affects their learning about reward and effort."
             ],
-            "media": "/images/projectCards/TEMP-WORK-PROJECT-1-POINT-1.gif"
+            "media": "/images/projectCards/scanner-.png"
           },
           {
-            "heading": "POINT 2",
+            "heading": "This work builds on a previous study (Hauser et al., 2017, PNAS)",
             "details": [
-              "LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISICING ELIT."
-            ]
+              "This study showed that reward-effort learning signals occur in separable brain circuitry in dorsomedial prefrontal and ventral striatal areas.",
+              "Participants have to learn how effort and rewarding stimuli are through reinforcement (trial and error)."
+            ],
+            "media": "/images/projectCards/Hauser2017_dACC_epe300.png"
           }
         ]
       },
       {
-        "title": "Measuring fluctuations in motivation over time",
-        "description": "Here is where you describe the research.",
-        "tools": [ "R", "Python", "Javascript", "HTML", "NoSQL", "PHASER3", "the Brain Explorer" ]
-
-      }
-    ],
-    "Projects": [
-      {
-        "title": "A mobile game to measure motivational state",
-        "description": "Mobile game built from original work by Dr Agnes Norbury and Professor Quentin Huys.",
-        "tools": [ "R", "Python", "Javascript", "HTML", "Phaser3", "NoSQL" ],
+        "title": "Fluctuations in motivation over time",
+        "description": "How do day-to-day changes in how we feel predict our decision-making?",
+        "tools": ["Hierarchical modelling", "Stan","R", "Python", "Javascript", "HTML", "Phaser3", "Google Firebase"],
         "links": {
-          "github": "https://github.com/samrchewitt/reward-effort-2afc-firebase-BEX-FU",
-          "website": "https://www.agnesnorbury.com/"
+          "github": "https://github.com/samrchewitt/reward-effort-2afc-firebase-BEX-FU/",
+          "website": "ema-motivation.web.app"
         },
-        "image": "/images/projectCards/game-gif.png",
+        "image": "/images/projectCards/trajectory_subjects_means_zState.png",
         "highlights": [
           {
-            "heading": "POINT 1",
+            "heading": "Smartphone-based research to track motivation over time",
             "details": [
-              "LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISICING ELIT.",
-              "LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISICING ELIT."
+              "We are using innovative methods to disentangle links between decision-making and mental health across people (on average) from within-people (over time).",
+              "This improves the ecological validity of computational psychiatry by contextualising decision-making within the ebb and flow of daily life.",
+              "We have found evidence that motivation fluctuates significantly over days and weeks, and that individuals differ substantially in how this unfolds."
             ],
-            "media": "/images/projectCards/TEMP-WORK-PROJECT-1-POINT-1.gif"
+            "media": "/images/projectCards/pWK_combinedSample.png"
           },
           {
-            "heading": "POINT 2",
+            "heading": "A mobile game to measure motivational state",
             "details": [
-              "LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISICING ELIT."
-            ]
+              "I adapted a desktop task created by Dr Agnes Norbury and Prof Quentin Huys to create a brief, engaging mobile game to measure motivational state as people go out about their daily lives.",
+              "Play a demo : ema-motivation.web.app"
+            ],
+            "media": "/images/projectCards/pilot_7_trim_gif.gif",
+            "website": "ema-motivation.web.app"
           }
         ]
+      },
+      {
+        "title": "Mobile EEG entropy-dashboard",
+        "description": "Consulting work with Salina AI",
+        "tools": ["Python", "NeuroPype", "Lab Streaming Layer"],
+        "image": "/images/projectCards/source-space_view_2021-04-30.gif",
+        "highlights": [
+          {
+            "heading": "A dashboard to capture EEG entropy statistics in real-time",
+            "details": [
+              "In collaboration with Anthony Sterling (https://anthonysterling.com/) & Chris Davison, we developed a dashboard to compute & display in real-time the entropy of the human brain recorded using a mobile EEG device",
+              "The right image is a cropped example, and the gif you saw before is a visualisation of the source reconstruction of EEG activity in real-time using Lab Streaming Layer API & Neuropype." 
+            ],
+            "media": "/images/projectCards/dashboard_example_clip.png"
+          }
+        ]
+      },
+      {
+      "title": "Conception X Cohort 7 member",
+      "description": "Deep-tech incubator for PhD students",
+      "image": "/images/projectCards/conceptionX.jpeg",
+      "website": "https://www.conceptionx.org/",
+      "highlights": [
+        {
+          "heading": "watch this space...",
+          "details": [
+            "I am a member of the Conception X Cohort 7, a deep-tech incubator for PhD students.",
+            "Conception X is a selective cohort which provides training and mentorship opportunities to help PhD students build tech start-ups." 
+          ]
+        }
+      ]
       }
     ],
     "Publications": [
       {
         "title": "Probing apathy in children and adolescents with the Apathy Motivation Index Child version",
-        "description": "A new measure of trait apathy in children",
+        "description": "Behavior Research Methods (2023)",
         "links": {
           "website": "https://link.springer.com/article/10.3758/s13428-023-02184-4",
-          "twitter": "https://x.com/samrchewitt/status/1688513792987013120?s=20"
+          "twitter": "https://x.com/samrchewitt/status/1688513792987013120?s=20",
+          "pdf": "/docs/Hewitt_et_al_2023.pdf",
+          "osf": "https://osf.io/t5js9/"
         },
         "image": "/images/projectCards/fig3_scatter.png",
         "highlights": [
@@ -156,32 +182,95 @@
       },
       {
         "title": "Visual tests predict dementia risk in Parkinson's disease",
-        "description": "Contribution as part of MSc Brain and Mind Sciences",
+        "description": "Neurology: Clinical Practice (2020)",
         "links": {
           "website": "https://www.neurology.org/doi/10.1212/cpj.0000000000000719",
-          "news": "https://theconversation.com/parkinsons-disease-can-affect-the-eyes-heres-what-we-know-so-far-146432"
+          "news": "https://theconversation.com/parkinsons-disease-can-affect-the-eyes-heres-what-we-know-so-far-146432",
+          "pdf": "/docs/Leyland_et_al_2020.pdf"
         },
         "image": "/images/projectCards/PD_retina.jpeg",
         "highlights": [
           {
-            "heading": "Abstract",
+            "heading": "Objectives",
             "details": [
-              "To assess the role of visual measures and retinal volume to predict the risk of Parkinson disease (PD) dementia.\n Methods: In this cohort study, we collected visual, cognitive, and motor data in people with PD. Participants underwent ophthalmic examination, retinal imaging using optical coherence tomography, and visual assessment including acuity and contrast sensitivity and high-level visuoperception measures of skew tolerance and biological motion. We assessed the risk of PD dementia using a recently described algorithm that combines age at onset, sex, depression, motor scores, and baseline cognition. Results: One hundred forty-six people were included in the study (112 with PD and 34 age-matched controls). The mean disease duration was 4.1 (±2·5) years. None of these participants had dementia. Higher risk of dementia was associated with poorer performance in visual measures (acuity: ρ = 0.29, p = 0.0024; contrast sensitivity: ρ = −0.37, p < 0.0001; skew tolerance: ρ = −0.25, p = 0.0073; and biological motion: ρ = −0.26, p = 0.0054). In addition, higher risk of PD dementia was associated with thinner retinal structure in layers containing dopaminergic cells, measured as ganglion cell layer (GCL) and inner plexiform layer (IPL) thinning (ρ = −0.29, p = 0.0021; ρ = −0.33, p = 0.00044). These relationships were not seen for the retinal nerve fiber layer that does not contain dopaminergic cells and were not seen in unaffected controls. Conclusion: Visual measures and retinal structure in dopaminergic layers were related to risk of PD dementia. Our findings suggest that visual measures and retinal GCL and IPL volumes may be useful to predict the risk of dementia in PD."
+              "To assess the role of visual measures and retinal volume to predict the risk of Parkinson disease (PD) dementia."
             ],
             "media": "/images/projectCards/PD_summary_vision.gif"
+          },
+          {
+            "heading": "Methods",
+            "details": [ 
+              "In this cohort study, we collected visual, cognitive, and motor data in people with PD. Participants underwent ophthalmic examination, retinal imaging using optical coherence tomography, and visual assessment including acuity and contrast sensitivity and high-level visuoperception measures of skew tolerance and biological motion. We assessed the risk of PD dementia using a recently described algorithm that combines age at onset, sex, depression, motor scores, and baseline cognition."
+            ]
+          },
+          {
+            "heading": "Results",
+            "details": [
+              "Results: One hundred forty-six people were included in the study (112 with PD and 34 age-matched controls). The mean disease duration was 4.1 (±2·5) years. None of these participants had dementia. Higher risk of dementia was associated with poorer performance in visual measures (acuity: ρ = 0.29, p = 0.0024; contrast sensitivity: ρ = −0.37, p < 0.0001; skew tolerance: ρ = −0.25, p = 0.0073; and biological motion: ρ = −0.26, p = 0.0054). In addition, higher risk of PD dementia was associated with thinner retinal structure in layers containing dopaminergic cells, measured as ganglion cell layer (GCL) and inner plexiform layer (IPL) thinning (ρ = −0.29, p = 0.0021; ρ = −0.33, p = 0.00044). These relationships were not seen for the retinal nerve fiber layer that does not contain dopaminergic cells and were not seen in unaffected controls."
+            ]
+          },
+          {
+            "heading": "Conclusion",
+            "details": [
+              "Conclusion: Visual measures and retinal structure in dopaminergic layers were related to risk of PD dementia. Our findings suggest that visual measures and retinal GCL and IPL volumes may be useful to predict the risk of dementia in PD."
+          ]
+          }
+        ]
+      },
+      {
+        "title": "Perceptual decision-making and metacognition in early Huntington's disease",
+        "description": "BMJ Neurology Open (2022)",
+        "links": {
+          "website": "https://neurologyopen.bmj.com/content/4/1/e000268",
+          "pdf": "/docs/Hewitt_et_al_2022.pdf",
+          "github": "https://github.com/samrchewitt/HD_perception_metacognition"
+        },
+        "image": "/images/projectCards/finalFigure4_accuracy_mratio_individual_300dpi.jpeg",
+        "highlights": [
+          {
+            "heading": "What is already known on this topic",
+            "details": [
+              "Huntington’s disease (HD) gene carriers can underestimate their impairments when asked to explicitly reflect on them. However, self-reports about cognition and daily life are confounded by many factors."
+            ]
+          },
+          {
+            "heading": "What this study adds",
+            "details": [
+              "This study shows that insight into cognitive performance remains intact in high functioning, premanifest and early-manifest HD gene carriers, even when the cognitive performance itself is impaired."
+            ]
+          },
+          {
+            "heading": "How this study might affect research, practice or policy",
+            "details": [
+              "Insight into impaired cognition is a putative mechanism for increased anxiety and depression commonly reported by HD gene carriers, which should be further investigated. Psychological interventions which use metacognition may help some early HD gene carriers exploit this intact skill to benefit their quality of life."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Designing stem-cell-based dopamine cell replacement trials for Parkinson’s disease",
+        "description": "Nature Medicine (2019)",
+        "links": {
+          "website": "https://www.nature.com/articles/s41591-019-0507-2"
+        },
+        "image": "/images/projectCards/NatureMedicineFig1.png",
+        "highlights": [
+          {
+            "heading": "Abstract",
+            "details": [
+              "Clinical studies of Parkinson’s disease (PD) using a dopamine cell replacment strategy have been tried for more than 30 years. The outcomes following transplantation of human fetal ventral mesencephalic tissue (hfVM) have been variable, with some patients coming off their anti-PD treatment for many years and others not responding and/or developing significant side effects, including graft-induced dyskinesia. This led to a re-appraisal of the best way to do such trials, which resulted in a new European-Union-funded allograft trial with fetal dopamine cells across several centers in Europe. This new trial, TRANSEURO (NCT01898390), is an open-label study in which some individuals in a large observational cohort of patients with mild PD who were undergoing identical assessments were randomly selected to receive transplants of hfVM. The TRANSEURO trial is currently ongoing as researchers have completed both recruitment into a large multicenter observational study of younger onset early-stage PD and transplantation of hfVM in 11 patients. While completion of TRANSEURO is not expected until 2021, we feel that sharing the rationale for the design of TRANSEURO, along with the lessons we have learned along the way, can help inform researchers and facilitate planning of transplants of dopamine-producing cells derived from human pluripotent stem cells for future clinical trials."
+            ]
           }
         ]
       }
     ]
   },
-  "gallery": [
-    {
+  "Gallery":{
+    "text": "Some talks I have done",
       "image": "/images/gallery/TEMP-GALLERY-IMAGE.png",
       "thumbnail": "/images/gallery/TEMP-GALLERY-IMAGE-THUMBNAIL.png"
-    }
-  ],
+  },
   "contact": {
-    "text": "Tell me something",
     "ctaText": "Say hello",
     "email": "s.hewitt.17@ucl.ac.uk"
   }

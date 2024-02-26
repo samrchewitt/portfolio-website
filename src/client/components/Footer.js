@@ -8,7 +8,7 @@ const Footer = ({ stars, forks }) => (
       target='_blank'
       rel='noopener noreferrer'
     >
-      <p>Built by Michael Doudy</p>
+      <p>Site template by M Doudy</p>
       <div className="footer__github-stats">
         <Star />
         <p>Star {stars}</p>

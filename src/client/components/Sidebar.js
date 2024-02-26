@@ -2,11 +2,14 @@ import { useState } from 'react';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 
+
 import MenuIcon from '../../../assets/icons/menu.svg';
 import LinkedinIcon from '../../../assets/icons/linkedin.svg';
 import GithubIcon from '../../../assets/icons/github.svg';
-import InstagramIcon from '../../../assets/icons/instagram.svg';
 import TwitterIcon from '../../../assets/icons/twitter.svg';
+import ScholarIcon from '../../../assets/icons/google-scholar.svg';
+import OSFicon from '../../../assets/icons/osf.svg';
+
 import Portal from './Portal';
 import useWindowDimensions from '../../../src/client/hooks/useWindowDimensions';
 import * as gtag from '../lib/gtag';
@@ -17,8 +20,9 @@ const MOBILE_BREAKPOINT = 768;
 const SOCIAL_MAP = {
   'linkedin': <LinkedinIcon />,
   'github': <GithubIcon />,
-  'instagram': <InstagramIcon />,
-  'twitter': <TwitterIcon />
+  'twitter': <TwitterIcon />,
+  'osf': <OSFicon />,
+  'scholar': <ScholarIcon />
 }
 
 export const DefaultSidebar = ({ scrollTo, sectionInView, isMobile, onClickStart }) => {
@@ -38,13 +42,13 @@ export const DefaultSidebar = ({ scrollTo, sectionInView, isMobile, onClickStart
         {router.pathname === '/'
         ? isMobile
             ? <a href={document.path} rel='noreferrer' target='_blank'>
-                <button id='view-resume' onClick={captureEvent}>Resume</button>
+                <button id='view-CV' onClick={captureEvent}>CV</button>
               </a>
             : <Link href='/doc'>
-                <button id='navigate-to-resume' onClick={captureEvent}>Resume</button>
+                <button id='navigate-to-CV' onClick={captureEvent}>CV</button>
               </Link>
         : <a download={document.fileName} href={document.path}>
-            <button id='download-resume' onClick={captureEvent}>Download</button>
+            <button id='download-CV' onClick={captureEvent}>Download</button>
           </a>
         }
       </div>
