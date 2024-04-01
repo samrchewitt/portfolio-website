@@ -123,7 +123,8 @@
           {
             "heading": "Play a demo!",
             "details": [
-              "Scan the QR code to play a demo of the mobile game"
+              "Scan the QR code to play a demo of the mobile game",
+              "or return to the previous page and click the the website icon"
             ],
             "media": "/images/projectCards/QRcodeDemoGame.png"
           }
