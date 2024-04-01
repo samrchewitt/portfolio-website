@@ -115,8 +115,7 @@
           {
             "heading": "A mobile game to measure motivational state",
             "details": [
-              "I adapted a desktop task created by Dr Agnes Norbury and Prof Quentin Huys to create a brief, engaging mobile game to measure motivational state as people go out about their daily lives.",
-              "Play a demo : ema-motivation.web.app"
+              "I adapted a desktop task created by Dr Agnes Norbury and Prof Quentin Huys to create a brief, engaging mobile game to measure motivational state as people go out about their daily lives."
             ],
             "media": "/images/projectCards/pilot_7_trim_gif.gif",
             "website": "ema-motivation.web.app"
@@ -251,7 +250,7 @@
         ]
       },
       {
-        "title": "stem-cell-based dopamine cell replacement for Parkinson’s disease",
+        "title": "Dopamine cell replacement for Parkinson’s disease",
         "description": "Nature Medicine (2019)",
         "links": {
           "website": "https://www.nature.com/articles/s41591-019-0507-2"

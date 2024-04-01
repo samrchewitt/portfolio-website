@@ -128,7 +128,7 @@
   height: 100vh;
   z-index: 99;
   display: grid;
-  grid-template: auto 1fr 1fr / 1fr;
+  // grid-template: auto 1fr 1fr / 1fr;
   position: fixed;
 
   &__menu-toggle-button,
@@ -157,10 +157,9 @@
     align-self: end;
     display: flex;
     flex-direction: column;
-    padding: 0.9375rem;
-    // gap: 2.5rem;
+    gap: 0rem;
     > * + * {
-      margin: 2.5rem 0 0 0; // safari
+      margin: 1.5rem 0 0 0; // safari
     }
 
     svg {
