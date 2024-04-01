@@ -95,7 +95,7 @@
       },
       {
         "title": "Fluctuations in motivation",
-        "description": "can we predict how motivation people will feel?",
+        "description": "can we predict how motivated unfolds?",
         "tools": ["timeseries", "Stan","R", "Python", "Javascript", "HTML"],
         "links": {
           "github": "https://github.com/samrchewitt/reward-effort-2afc-firebase-BEX-FU/",
