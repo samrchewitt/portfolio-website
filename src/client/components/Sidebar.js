@@ -2,13 +2,10 @@ import { useState } from 'react';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 
-
 import MenuIcon from '../../../assets/icons/menu.svg';
 import LinkedinIcon from '../../../assets/icons/linkedin.svg';
 import GithubIcon from '../../../assets/icons/github.svg';
-import TwitterIcon from '../../../assets/icons/twitter.svg';
 import ScholarIcon from '../../../assets/icons/google-scholar.svg';
-import OSFicon from '../../../assets/icons/osf.svg';
 
 import Portal from './Portal';
 import useWindowDimensions from '../../../src/client/hooks/useWindowDimensions';
@@ -18,11 +15,9 @@ import data from '../../../src/client/lib/data.json';
 const { sections, social, document, settings } = data;
 const MOBILE_BREAKPOINT = 768;
 const SOCIAL_MAP = {
-  'linkedin': <LinkedinIcon />,
   'github': <GithubIcon />,
-  'twitter': <TwitterIcon />,
-  'osf': <OSFicon />,
-  'scholar': <ScholarIcon />
+  'scholar': <ScholarIcon />,
+  'linkedin': <LinkedinIcon />,
 }
 
 export const DefaultSidebar = ({ scrollTo, sectionInView, isMobile, onClickStart }) => {

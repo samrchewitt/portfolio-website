@@ -8,24 +8,22 @@
   "meta": {
     "title": "Samuel Hewitt",
     "description": "META DESC",
-    "mobileIcon": "/mobile-icon.png",
-    "favIcon": "/favicon.ico",
+    "mobileIcon": "/brain-illustration.svg",
+    "favIcon": "/brain-illustration.svg",
     "language": "en-UK",
     "canonical": "CANONICAL URL",
     "url": "URL",
     "twitterHandle": "TWITTER HANDLE"
   },
   "social": {
-    "linkedin": "https://www.linkedin.com/in/sam-hewitt-151313a4/",
     "github": "https://github.com/samrchewitt",
     "scholar": "https://scholar.google.co.uk/citations?user=sYDX_5gAAAAJ&hl=en",
-    "twitter": "https://twitter.com/samrchewitt",
     "osf": "https://osf.io/9rpzx/",
-    "ORCID": "https://orcid.org/0000-0002-9219-6324"
+    "linkedin": "https://www.linkedin.com/in/sam-hewitt-151313a4/"
   },
   "document": {
-    "fileName": "SamuelHewittCV.pdf",
-    "path": "/docs/cv_20210106_SamHewitt.pdf"
+    "fileName": "SamHewitt_CV_2024.pdf",
+    "path": "/docs/SamHewitt_CV_2024.pdf"
   },
   "header": {
     "preHeading": "Hey! My name is",
@@ -48,30 +46,28 @@
       "heading": "Publications"
     },
     {
-      "type": "Gallery",
-      "heading": "Talks"
-    },
-    {
       "type": "contact",
       "heading": "Contact"
     }
   ],
   "about": {
     "content": [
-      "I am a cognitive neuroscientist based in London. We use advanced methods to deconstruct choices people make into the recipes that people use to make them. For example, how do you decide whether to keep reading this?",
-      "Choices can reveal how our brains work and are often linked to our subjective wellbeing. The utlimate goal of this work is to improve prediction and treatment for common mental health conditions like depression.",
+      "I am a cognitive neuroscientist based in London. We use advanced methods to deconstruct people's choices into the recipes they used to make them.",
+      "For example, why did you decide to keep reading?",
+      "Choices reveal how our brains work and are linked to our wellbeing. Through this work, we hope to better predict and treat common mental disorders.",
       "My PhD is supervised by Prof Tobias Hauser (UCL/Tuebingen University) and Professor Oliver Robinson (UCL). I also receive mentorship from Prof Essi Viding (UCL) and Dr Patricia Lockwood (University of Oxford/University of Birmingham), and funding from the Medical Research Council and Wellcome Trust.",
-      "I started my research career as a Clinical Research Assistant at the University of Cambridge working with Professor Roger Barker",
-      "I'm also a graduate of UCL's Brain & Mind Sciences MSc & the University of Bristol (Experimental Psychology)"
+      "I started my research career as a Clinical Research Assistant at the University of Cambridge working with Professor Roger Barker.",
+      "I'm also a graduate of UCL's Brain & Mind Sciences MSc & the University of Bristol (Experimental Psychology).",
+      "I'm currently thinking about my next role, so please get in touch if you'd like to discuss this."
     ],
     "image": "/images/about/SH.jpg"
   },
   "projectCards": {
     "Projects": [
       {
-        "title": "Dopamine and reinforcement learning about effort",
+        "title": "Dopamine and effort learning",
         "description": "how do we learn how rewarding and effortful things are?",
-        "tools": ["fMRI", "reinforcement learning", "Matlab", "SPM12"],
+        "tools": ["brain imaging", "reinforcement learning", "Matlab", "SPM12"],
         "links": {
           "github": "https://github.com/samrchewitt/EL_analysis",
           "pdf": "public/docs/EL_beh_UCL_blue_CPC-Dublin_June23.pdf"
@@ -98,9 +94,9 @@
         ]
       },
       {
-        "title": "Fluctuations in motivation over time",
+        "title": "Fluctuations in motivation",
         "description": "How do day-to-day changes in how we feel predict our decision-making?",
-        "tools": ["Hierarchical modelling", "Stan","R", "Python", "Javascript", "HTML", "Phaser3", "Google Firebase"],
+        "tools": ["Hierarchical modelling", "timeseries modelling", "Stan","R", "Python", "Javascript", "HTML", "Phaser3"],
         "links": {
           "github": "https://github.com/samrchewitt/reward-effort-2afc-firebase-BEX-FU/",
           "website": "ema-motivation.web.app"
@@ -124,13 +120,20 @@
             ],
             "media": "/images/projectCards/pilot_7_trim_gif.gif",
             "website": "ema-motivation.web.app"
+          },
+          {
+            "heading": "Play a demo!",
+            "details": [
+              "Scan the QR code to play a demo of the mobile game"
+            ],
+            "media": "/images/projectCards/QRcodeDemoGame.png"
           }
         ]
       },
       {
         "title": "Mobile EEG entropy-dashboard",
         "description": "Consulting work with Salina AI",
-        "tools": ["Python", "NeuroPype", "Lab Streaming Layer"],
+        "tools": ["real-time data analysis", "Python", "NeuroPype", "Lab Streaming Layer"],
         "image": "/images/projectCards/source-space_view_2021-04-30.gif",
         "highlights": [
           {
@@ -144,7 +147,7 @@
         ]
       },
       {
-      "title": "Conception X Cohort 7 member",
+      "title": "Conception X Cohort 7",
       "description": "Deep-tech incubator for PhD students",
       "image": "/images/projectCards/conceptionX.jpeg",
       "website": "https://www.conceptionx.org/",
@@ -161,7 +164,7 @@
     ],
     "Publications": [
       {
-        "title": "Probing apathy in children and adolescents with the Apathy Motivation Index Child version",
+        "title": "Apathy in children",
         "description": "Behavior Research Methods (2023)",
         "links": {
           "website": "https://link.springer.com/article/10.3758/s13428-023-02184-4",
@@ -181,7 +184,7 @@
         ]
       },
       {
-        "title": "Visual tests predict dementia risk in Parkinson's disease",
+        "title": "Vision in Parkinson's disease",
         "description": "Neurology: Clinical Practice (2020)",
         "links": {
           "website": "https://www.neurology.org/doi/10.1212/cpj.0000000000000719",
@@ -218,7 +221,7 @@
         ]
       },
       {
-        "title": "Perceptual decision-making and metacognition in early Huntington's disease",
+        "title": "Metacognition in early Huntington's disease",
         "description": "BMJ Neurology Open (2022)",
         "links": {
           "website": "https://neurologyopen.bmj.com/content/4/1/e000268",
@@ -248,7 +251,7 @@
         ]
       },
       {
-        "title": "Designing stem-cell-based dopamine cell replacement trials for Parkinson’s disease",
+        "title": "stem-cell-based dopamine cell replacement for Parkinson’s disease",
         "description": "Nature Medicine (2019)",
         "links": {
           "website": "https://www.nature.com/articles/s41591-019-0507-2"
@@ -265,13 +268,8 @@
       }
     ]
   },
-  "Gallery":{
-    "text": "Some talks I have done",
-      "image": "/images/gallery/TEMP-GALLERY-IMAGE.png",
-      "thumbnail": "/images/gallery/TEMP-GALLERY-IMAGE-THUMBNAIL.png"
-  },
   "contact": {
-    "ctaText": "Say hello",
-    "email": "s.hewitt.17@ucl.ac.uk"
+    "ctaText": "Get in touch",
+    "email": "samrchewitt@gmail.com"
   }
 }

@@ -1,19 +1,19 @@
 .sidebar {
   position: fixed;
-  overflow: scroll;
+  overflow: visible;
   height: 100vh;
   max-width: 9.375rem;
   display: grid;
-  grid-template: auto 1fr 1fr / 1fr;
+  //grid-template: auto;
 
   &__cta,
   &__nav,
   &__social {
     display: flex;
     flex-direction: column;
-    // gap: 2.5rem;
+    gap: 0rem;
     > * + * {
-      margin: 2.5rem 0 0 0; // safari
+      margin: 1.5rem 0 0 0; // safari
     }
   }
 
@@ -25,7 +25,7 @@
       @include button-default-style;
       padding: 0.625rem 0.75rem;
       font-weight: 900;
-      font-size: $font-size-3;
+      font-size: $font-size-4;
     }
   }
 
@@ -35,7 +35,7 @@
     h2 {
       transition: $transition-1;
       cursor: pointer;
-      font-size: $font-size-3;
+      font-size: $font-size-4;
       font-weight: 300;
       @include themed() {
         color: t($color-1);
@@ -53,12 +53,12 @@
   }
 
   &__social {
-    align-self: end;
-
+    align-self: start;
+  
     svg {
       transition: $transition-1;
       cursor: pointer;
-      width: $font-size-5;
+      width: $font-size-6;
       @include themed() {
         color: t($color-1);
         &:hover {
@@ -66,6 +66,11 @@
           color: t($color-3);
         }
       }
+    }
+  
+    // Add this block to target the BlueSky icon specifically
+    .BlueSkyIcon {
+      width: $font-size-6; // Adjust this to the size you want
     }
   }
 
@@ -76,7 +81,7 @@
     .sidebar {
       &__nav,
       &__social {
-        margin: 1.875rem 0.3125rem 1.875rem 0.625rem;
+        margin: 1.875rem 0.3125rem 0rem 0.625rem;
       }
 
       &__cta {
@@ -101,7 +106,7 @@
     .sidebar {
       &__nav,
       &__social {
-        margin: 1.875rem 0.625rem 1.875rem 0.3125rem;
+        margin: 1.875rem 0.625rem 0rem 0.3125rem;
       }
 
       &__cta {
@@ -148,7 +153,7 @@
   }
 
   &__social {
-    grid-row: 3;
+    grid-row: 4;
     align-self: end;
     display: flex;
     flex-direction: column;
