@@ -66,8 +66,8 @@
     "Projects": [
       {
         "title": "Dopamine and effort learning",
-        "description": "how do we learn how rewarding and effortful things are?",
-        "tools": ["brain imaging", "reinforcement learning", "Matlab", "SPM12"],
+        "description": "how do we learn about reward and effort?",
+        "tools": ["fMRI", "reinforcement learning"],
         "links": {
           "github": "https://github.com/samrchewitt/EL_analysis",
           "pdf": "public/docs/EL_beh_UCL_blue_CPC-Dublin_June23.pdf"
@@ -95,8 +95,8 @@
       },
       {
         "title": "Fluctuations in motivation",
-        "description": "How do day-to-day changes in how we feel predict our decision-making?",
-        "tools": ["Hierarchical modelling", "timeseries modelling", "Stan","R", "Python", "Javascript", "HTML", "Phaser3"],
+        "description": "can we predict how motivation people will feel?",
+        "tools": ["timeseries", "Stan","R", "Python", "Javascript", "HTML"],
         "links": {
           "github": "https://github.com/samrchewitt/reward-effort-2afc-firebase-BEX-FU/",
           "website": "ema-motivation.web.app"
@@ -132,7 +132,7 @@
       {
         "title": "Mobile EEG entropy-dashboard",
         "description": "Consulting work with Salina AI",
-        "tools": ["real-time data analysis", "Python", "NeuroPype", "Lab Streaming Layer"],
+        "tools": ["EEG", "real-time data analysis", "LSL", "Python"],
         "image": "/images/projectCards/source-space_view_2021-04-30.gif",
         "highlights": [
           {

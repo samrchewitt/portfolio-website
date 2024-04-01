@@ -159,7 +159,7 @@
     flex-direction: column;
     gap: 0rem;
     > * + * {
-      margin: 1.5rem 0 0 0; // safari
+      margin: 1rem 0 0 0; // safari
     }
 
     svg {
